@@ -47,12 +47,11 @@ WHERE Manufacturer LIKE "Iphone";
 
 SELECT *
 FROM phones
-WHERE ProductName LIKE "%8%";
-FROM phones
 WHERE Manufacturer LIKE "Samsung";
 
 SELECT *
 FROM phones
-WHERE Manufacturer LIKE "Iphone";
+WHERE ProductName LIKE "%8%";
+
  
  
